@@ -3819,12 +3819,10 @@ forwarded@~0.1.2:
   version "0.1.2"
   resolved "https://registry.yarnpkg.com/forwarded/-/forwarded-0.1.2.tgz#98c23dab1175657b8c0573e8ceccd91b0ff18c84"
 
-"foundation-sites@git+https://github.com/steemit/foundation-sites.git#e8e32c715bbc4c822b80b555345f61337269ca78":
-  version "6.3.1"
-  resolved "git+https://github.com/steemit/foundation-sites.git#e8e32c715bbc4c822b80b555345f61337269ca78"
-  dependencies:
-    jquery ">=3.0.0"
-    what-input "^4.0.3"
+foundation-sites@6.6.0:
+  version "6.6.0"
+  resolved "https://registry.yarnpkg.com/foundation-sites/-/foundation-sites-6.6.0.tgz#7ce7133a2750d3553a45d11bc9cfb925ee928ea8"
+  integrity sha512-/KXP7rLOO8HvpxiW+uS9jJ2GiRDXj/OGe1W0UeCWv8t+sfxQkDVz4nXmFG4NUjuhEFMulMq/DlbdiqrFlAOpNQ==
 
 frameguard@3.0.0:
   version "3.0.0"
@@ -5132,10 +5130,6 @@ jest@22.0.6:
   resolved "https://registry.yarnpkg.com/jest/-/jest-22.0.6.tgz#0d0d3bdc402c43cf5a3eae58a55cff6da8b6820f"
   dependencies:
     jest-cli "^22.0.6"
-
-jquery@>=3.0.0:
-  version "3.3.1"
-  resolved "https://registry.yarnpkg.com/jquery/-/jquery-3.3.1.tgz#958ce29e81c9790f31be7792df5d4d95fc57fbca"
 
 js-base64@^2.1.8, js-base64@^2.1.9:
   version "2.4.3"
@@ -9321,10 +9315,6 @@ websocket@1.0.24:
     nan "^2.3.3"
     typedarray-to-buffer "^3.1.2"
     yaeti "^0.0.6"
-
-what-input@^4.0.3:
-  version "4.3.1"
-  resolved "https://registry.yarnpkg.com/what-input/-/what-input-4.3.1.tgz#b8ea7554ba1d9171887c4c6addf28185fec3d31d"
 
 whatwg-encoding@^1.0.1, whatwg-encoding@^1.0.3:
   version "1.0.3"
