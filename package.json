@@ -18,7 +18,9 @@
     "debug": "NODE_ENV=development webpack --config ./webpack/debug.config.js && rm -rf ./lib && babel src --source-maps --out-dir lib -D && node --inspect-brk lib/server/index.js",
     "checktranslations": "node scripts/check_translations.js",
     "storybook": "start-storybook -p 9001 -c .storybook",
-    "storybook-build": "build-storybook -c .storybook -o docs"
+    "storybook-build": "build-storybook -c .storybook -o docs",
+    "snyk-protect": "snyk protect",
+    "prepare": "yarn run snyk-protect"
   },
   "author": "Steemit, Inc.",
   "license": "MIT",
@@ -143,7 +145,8 @@
     "webpack-isomorphic-tools": "3.0.5",
     "websocket": "1.0.24",
     "whatwg-fetch": "0.11.1",
-    "xmldom": "0.1.27"
+    "xmldom": "0.1.27",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "@storybook/addon-knobs": "3.2.19",
@@ -202,5 +205,6 @@
     "moduleNameMapper": {
       "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/__mocks__/fileMock.js"
     }
-  }
+  },
+  "snyk": true
 }
