@@ -4197,7 +4197,12 @@ hide-powered-by@1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/hide-powered-by/-/hide-powered-by-1.0.0.tgz#4a85ad65881f62857fc70af7174a1184dccce32b"
 
-highcharts@4.2.7, highcharts@^4.2.3:
+highcharts@8.1.1:
+  version "8.1.1"
+  resolved "https://registry.yarnpkg.com/highcharts/-/highcharts-8.1.1.tgz#7dc011e260289ab64d775807df0d13b85ed88338"
+  integrity sha512-DSkI+fAqkqYDslOVLcEk8DX7W9itRIwzsdS0uVEOnVf0LF1hSKZtDINHP7ze/uBN9NdWQV9HydtiPTrkLx0lXg==
+
+highcharts@^4.2.3:
   version "4.2.7"
   resolved "https://registry.yarnpkg.com/highcharts/-/highcharts-4.2.7.tgz#45cbed8e99c9c042e95f9c51076726496f686862"
 
