@@ -70,7 +70,7 @@
     "js-cookie": "^2.2.1",
     "json-loader": "0.5.7",
     "jspdf": "^2.1.1",
-    "koa": "1.4.1",
+    "koa": "3.0.1",
     "koa-body": "1.6.0",
     "koa-compressor": "1.0.3",
     "koa-conditional-get": "1.0.4",
